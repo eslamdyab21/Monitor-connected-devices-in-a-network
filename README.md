@@ -1,0 +1,2 @@
+## Monitor connected devices in a network
+Motivation is monitoring devices in a network to know when some device which should not be connected is in the network, and to monitor different devices usage of network bandwidth.
