@@ -3,5 +3,7 @@ from Monitor import Monitor
 
 monitor = Monitor()
 
-connected_devices = monitor.detect_devices(cider_network=sys.argv[1])
-print(connected_devices)
+nmap_original_msg, connected_devices_lst = monitor.detect_devices(cider_network=sys.argv[1])
+print(nmap_original_msg)
+print('--------------')
+print(connected_devices_lst)
